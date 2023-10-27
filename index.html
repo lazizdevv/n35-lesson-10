@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First step</title>
+</head>
+<link rel="stylesheet" href="./css/style.css">
+<body>
+    <nav>
+        <div class="container">
+            <img src="./images/logo.svg" alt="logo">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About </a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#" class="nav-btn">Log in</a></li>
+                <li class="nav-item"><a href="#" class="nav-btn">Open an account</a></li>
+                <li class="nav-item"><a href="#" class="nav-btn-end">EN</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header></header>
+    <main>
+        <!-- <div class="container"> -->
+            <form action="">
+               <div class="text-form">
+                <img src="./images/logo.svg" alt="logo">
+                <h1>
+                    Welcome to ByTrend!
+                </h1>
+                <p>
+                    Already have an account?
+                </p>
+                <a class="log-in" href="./pages/login.html">Log in</a>
+               </div>
+                <br />
+
+
+               <div class="block-user-names">
+                <div class="user-name">
+                    <label class="username" for="username">First name<span>*</span></label>
+                    
+                    <input
+                    
+                    list="usernames"
+                    class="input-name"
+                    required
+                    name="username"
+                    id="username"
+                    type="text"
+                    value="Lazizbek"
+                    placeholder="First name"
+                    />
+        
+                </div>
+                <div class="user-lastname">
+                    <label class="lastname" for="lastname">Lastname<span>*</span></label>
+                    <input
+                    class="input-lastname"
+                    required
+                    name="lastname"
+                    id="lastname"
+                    type="text"
+                    placeholder="last name"
+                    />
+                </div> 
+               </div>   
+                    
+               
+          <br>
+          <div class="input-date">
+            <label class="birthdate" for="">Birth date<span>*</span></label>
+            <input required  class="date" type="date" />
+          </div>
+          
+
+
+          <br>
+          <label class="gander" for="">Gender</label><span>*</span>
+          <div class="block-gender-input">
+           <div class="female">
+            <input
+            class="radio-female"
+            required
+            name="genre"
+            value="female"
+            id="female"
+            type="radio"
+          />
+          <label for="female">Female</label>
+           </div>
+          <!-- <br /> -->
+
+          <div class="male">
+            <input 
+            required name="genre" 
+            value="male" 
+            id="male" 
+            type="radio"
+            class="radio-male"
+            />
+          <label for="male">Male</label>
+          </div>
+          </div>
+          
+          
+          <br />
+          <label class="skype" for="Skype">Skype</label>
+          <br>
+          <input
+            
+            list="Skype"
+            class="input-skype"
+            required
+            name="Skype"
+            id="Skype"
+            type="text"
+            placeholder="Your login Skype"
+          />
+          <br>
+
+
+          <label class="promo" for="Promo">Promo</label>
+          <input
+            
+            list="Promo"
+            class="input-promo"
+            required
+            name="Promo"
+            id="Promo"
+            type="text"
+            placeholder="Your promo"
+          />
+
+          <a href="./pages/second-step.html">
+            <button class="continue-btn">
+                Continue
+                <img class="icon-arrow" src="./images/Arrow Right 1 - 24px.svg" alt="">
+            </button>
+          </a>
+
+
+          
+
+            </form>
+        <!-- </div> -->
+    </main>
+    <footer>
+        <p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+    </footer>
+</body>
+</html>

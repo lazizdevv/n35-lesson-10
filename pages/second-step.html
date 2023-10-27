@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second step</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+<link rel="stylesheet" href="../css/second-step.css">
+<body>
+    <nav>
+        <div class="container">
+            <a href="../index.html">
+                <img src="../images/logo.svg" alt="logo">
+            </a>
+            
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About </a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#" class="nav-btn">Log in</a></li>
+                <li class="nav-item"><a href="#" class="nav-btn">Open an account</a></li>
+                <li class="nav-item"><a href="#" class="nav-btn-end">EN</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header></header>
+    <main>
+        
+            <form action="">
+               <div class="text-form">
+                <img src="../images/logo.svg" alt="logo">
+                <h1>
+                    Welcome to ByTrend!
+                </h1>
+                <p>
+                    Already have an account?
+                </p>
+                <a class="log-in" href="./login.html">Log in</a>
+               </div>
+                <br />
+
+                <label class="text-input-label" for="email">Email<span>*</span></label>
+                    <br>
+                    <input
+                        required
+                        value=""
+                        class="input-style-2"
+                        name="email"
+                        id="email"
+                        type="email"
+                        placeholder="email addres"
+                    />
+
+              <br>
+          <label class="text-input-label" for="phone">Phone<span>*</span></label>
+          <br>
+          <input
+            pattern="^\+998(33|50|7(0|1|7)|88|9\d{1})(\d{7})$"
+            oninvalid="this.setCustomValidity('Iltimos togri telefon raqam kiriting !')"
+            class="input-style-2"
+            name="phone"
+            value="+998"
+            id="phone"
+            type="text"
+            placeholder="+998__0000000"
+          />
+
+
+           <div class="block-country">
+                <div class="user-name">
+                    
+                    <label class="country" for="country">Country<span>*</span></label>
+                    <br>
+                    <select  name="country" id="country" class="select-country">
+                      <option value="russia">Russia</option>
+                      <option value="uzbekistan">Uzbekistan</option>
+                      <option value="palestine">Palestine</option>
+                      <option value="china">China</option>
+                    </select>
+        
+                </div>
+                <div class="user-lastname">
+                    <label class="city" for="city">City<span>*</span></label>
+                    <br>
+                    <input
+                    class="input-city"
+                    required
+                    name="city"
+                    id="city"
+                    type="text"
+                    placeholder="Name of the city"
+                    />
+                </div> 
+               </div>   
+                    
+          
+          <br />
+          <label class="skype" for="password">
+            Password<span>*</span>
+            <img src="../images/Setting 26 - 24px.svg" alt="">
+        </label>
+          <br>
+          <div class="password-box">
+            <input
+            
+            list="password"
+            class="input-password"
+            required
+            name="password"
+            id="password"
+            type="password"
+            placeholder="********"
+          />
+          <i class="bi bi-eye-slash" id="togglePassword"></i>
+          </div>
+          
+          <br>
+
+
+          <label class="promo" for="Promo">Confirm password<span>*</span></label>
+          <input
+            
+            list="Promo"
+            class="input-confirm"
+            required
+            name="Promo"
+            id="Promo"
+            type="text"
+            placeholder=""
+          />
+
+          <a href="./login.html">
+            <button class="register-btn">Register</button>
+          </a>
+
+
+          <p class="reg-text">By signing up, you are agreeing to our <span>Terms & Conditions</span> and <span>Privacy Policy.</span></p>
+          
+
+            </form>
+        
+    </main>
+
+    <footer></footer>
+    <script src="../javascript/main.js"></script>
+</body>
+</html>
